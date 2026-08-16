@@ -1,201 +1,92 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320">
+<style>
+  .codigo {
+    font-family: monospace;
+    font-size: 18px;
+    font-weight: bold;
+  }
 
-  <rect width="1200" height="320" fill="#000000"/>
+  .verde {
+    fill: #2CFF05;
+  }
 
-  <style>
-    .codigo {
-      font-family: monospace;
-      font-size: 18px;
-      font-weight: bold;
-      fill: #FF00FF;
-    }
+  .roxo {
+    fill: #FF00FF;
+  }
 
-    .nome {
-      font-family: "Arial Black", Impact, sans-serif;
-      font-size: 72px;
-      font-weight: 900;
-      letter-spacing: 8px;
-      fill: #FFFFFF;
-      stroke: #FFFFFF;
-      stroke-width: 1;
-    }
+  .nome {
+    font-family: "Arial Black", Impact, sans-serif;
+    font-size: 72px;
+    font-weight: 900;
+    letter-spacing: 8px;
+    fill: #FFFFFF;
+    stroke: #FFFFFF;
+    stroke-width: 1;
+  }
 
-    .brilho {
-      fill: #FF00FF;
-      opacity: .35;
-      filter: blur(8px);
-    }
+  .brilho {
+    fill: #FF00FF;
+    opacity: .35;
+    filter: blur(8px);
+  }
 
-    .coluna1 { animation: queda1 4s linear infinite; }
-    .coluna2 { animation: queda2 5s linear infinite; }
-    .coluna3 { animation: queda3 3.5s linear infinite; }
-    .coluna4 { animation: queda4 6s linear infinite; }
-    .coluna5 { animation: queda5 4.5s linear infinite; }
-    .coluna6 { animation: queda6 3s linear infinite; }
-    .coluna7 { animation: queda7 5.5s linear infinite; }
-    .coluna8 { animation: queda8 4s linear infinite; }
-    .coluna9 { animation: queda9 6.5s linear infinite; }
-    .coluna10 { animation: queda10 3.8s linear infinite; }
+  .coluna1 { animation: queda1 4s linear infinite; }
+  .coluna2 { animation: queda2 5s linear infinite; }
+  .coluna3 { animation: queda3 3.5s linear infinite; }
+  .coluna4 { animation: queda4 6s linear infinite; }
+  .coluna5 { animation: queda5 4.5s linear infinite; }
+  .coluna6 { animation: queda6 3s linear infinite; }
+  .coluna7 { animation: queda7 5.5s linear infinite; }
+  .coluna8 { animation: queda8 4s linear infinite; }
+  .coluna9 { animation: queda9 6.5s linear infinite; }
+  .coluna10 { animation: queda10 3.8s linear infinite; }
 
-    @keyframes queda1 {
-      from { transform: translateY(-350px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda1 {
+    from { transform: translateY(-350px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda2 {
-      from { transform: translateY(-450px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda2 {
+    from { transform: translateY(-450px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda3 {
-      from { transform: translateY(-300px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda3 {
+    from { transform: translateY(-300px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda4 {
-      from { transform: translateY(-500px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda4 {
+    from { transform: translateY(-500px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda5 {
-      from { transform: translateY(-400px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda5 {
+    from { transform: translateY(-400px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda6 {
-      from { transform: translateY(-300px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda6 {
+    from { transform: translateY(-300px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda7 {
-      from { transform: translateY(-450px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda7 {
+    from { transform: translateY(-450px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda8 {
-      from { transform: translateY(-350px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda8 {
+    from { transform: translateY(-350px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda9 {
-      from { transform: translateY(-500px); }
-      to { transform: translateY(350px); }
-    }
+  @keyframes queda9 {
+    from { transform: translateY(-500px); }
+    to { transform: translateY(350px); }
+  }
 
-    @keyframes queda10 {
-      from { transform: translateY(-400px); }
-      to { transform: translateY(350px); }
-    }
-  </style>
-
-  <!-- CÓDIGO BINÁRIO -->
-
-  <g class="coluna1" opacity=".75">
-    <text class="codigo" x="40" y="0">101010</text>
-    <text class="codigo" x="40" y="30">010011</text>
-    <text class="codigo" x="40" y="60">110101</text>
-    <text class="codigo" x="40" y="90">001101</text>
-    <text class="codigo" x="40" y="120">101101</text>
-    <text class="codigo" x="40" y="150">010110</text>
-  </g>
-
-  <g class="coluna2" opacity=".45">
-    <text class="codigo" x="160" y="0">010101</text>
-    <text class="codigo" x="160" y="30">111010</text>
-    <text class="codigo" x="160" y="60">001011</text>
-    <text class="codigo" x="160" y="90">101010</text>
-    <text class="codigo" x="160" y="120">011101</text>
-    <text class="codigo" x="160" y="150">110011</text>
-  </g>
-
-  <g class="coluna3" opacity=".85">
-    <text class="codigo" x="280" y="0">110010</text>
-    <text class="codigo" x="280" y="30">001101</text>
-    <text class="codigo" x="280" y="60">101011</text>
-    <text class="codigo" x="280" y="90">010110</text>
-    <text class="codigo" x="280" y="120">111100</text>
-    <text class="codigo" x="280" y="150">000111</text>
-  </g>
-
-  <g class="coluna4" opacity=".5">
-    <text class="codigo" x="400" y="0">011010</text>
-    <text class="codigo" x="400" y="30">101101</text>
-    <text class="codigo" x="400" y="60">010010</text>
-    <text class="codigo" x="400" y="90">110101</text>
-    <text class="codigo" x="400" y="120">001111</text>
-    <text class="codigo" x="400" y="150">101010</text>
-  </g>
-
-  <g class="coluna5" opacity=".8">
-    <text class="codigo" x="520" y="0">101011</text>
-    <text class="codigo" x="520" y="30">010101</text>
-    <text class="codigo" x="520" y="60">110010</text>
-    <text class="codigo" x="520" y="90">001101</text>
-    <text class="codigo" x="520" y="120">111010</text>
-    <text class="codigo" x="520" y="150">010011</text>
-  </g>
-
-  <g class="coluna6" opacity=".45">
-    <text class="codigo" x="640" y="0">001011</text>
-    <text class="codigo" x="640" y="30">110101</text>
-    <text class="codigo" x="640" y="60">010110</text>
-    <text class="codigo" x="640" y="90">101001</text>
-    <text class="codigo" x="640" y="120">011101</text>
-    <text class="codigo" x="640" y="150">111010</text>
-  </g>
-
-  <g class="coluna7" opacity=".8">
-    <text class="codigo" x="760" y="0">111001</text>
-    <text class="codigo" x="760" y="30">010101</text>
-    <text class="codigo" x="760" y="60">101110</text>
-    <text class="codigo" x="760" y="90">001011</text>
-    <text class="codigo" x="760" y="120">110101</text>
-    <text class="codigo" x="760" y="150">010010</text>
-  </g>
-
-  <g class="coluna8" opacity=".5">
-    <text class="codigo" x="880" y="0">010011</text>
-    <text class="codigo" x="880" y="30">101101</text>
-    <text class="codigo" x="880" y="60">110010</text>
-    <text class="codigo" x="880" y="90">001101</text>
-    <text class="codigo" x="880" y="120">111010</text>
-    <text class="codigo" x="880" y="150">010110</text>
-  </g>
-
-  <g class="coluna9" opacity=".8">
-    <text class="codigo" x="1000" y="0">101010</text>
-    <text class="codigo" x="1000" y="30">011101</text>
-    <text class="codigo" x="1000" y="60">110011</text>
-    <text class="codigo" x="1000" y="90">001100</text>
-    <text class="codigo" x="1000" y="120">101101</text>
-    <text class="codigo" x="1000" y="150">010010</text>
-  </g>
-
-  <!-- BRILHO DO NOME -->
-
-  <text class="brilho" x="600" y="190" text-anchor="middle">
-    Beckksx
-  </text>
-
-  <!-- NOME -->
-
-  <text class="nome" x="600" y="190" text-anchor="middle">
-    Beckksx
-  </text>
-
-  <!-- LINHA NEON -->
-
-  <rect x="360" y="215" width="480" height="2" fill="#FF00FF"/>
-
-  <text
-    x="600"
-    y="250"
-    text-anchor="middle"
-    fill="#FFFFFF"
-    font-family="monospace"
-    font-size="13"
-    letter-spacing="5">
-    NÚCLEO DIGITAL // SISTEMA ONLINE
-  </text>
-
-</svg>
+  @keyframes queda10 {
+    from { transform: translateY(-400px); }
+    to { transform: translateY(350px); }
+  }
+</style>
