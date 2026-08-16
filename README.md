@@ -12,11 +12,13 @@
 
 <p align="center">
  <p align="center">
-  <img 
+<p align="center">
+  <img
     src="https://raw.githubusercontent.com/Beckksx/Beckksx/main/assets/matrix.svg"
     width="100%"
-    alt="Animação de código binário"
+    alt="Código binário em estilo cyberpunk"
   />
+</p>
 </p>
 
 ---
