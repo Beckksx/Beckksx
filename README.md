@@ -11,7 +11,12 @@
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000000,50:100010,100:1A001A&height=120&section=header&text=REBECA%20XAVIER&fontSize=42&fontColor=FF00FF&animation=fadeIn&fontAlignY=55&desc=DESENVOLVIMENTO%20%7C%20TECNOLOGIA%20%7C%20INTELIG%C3%8ANCIA%20ARTIFICIAL&descAlignY=78&descSize=14&descColor=FFFFFF" />
+ <p align="center">
+  <img 
+    src="https://raw.githubusercontent.com/Beckksx/Beckksx/main/assets/matrix.svg"
+    width="100%"
+    alt="Animação de código binário"
+  />
 </p>
 
 ---
