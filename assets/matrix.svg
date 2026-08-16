@@ -1,92 +1,469 @@
-<style>
-  .codigo {
-    font-family: monospace;
-    font-size: 18px;
-    font-weight: bold;
-  }
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="420" viewBox="0 0 1400 420">
 
-  .verde {
-    fill: #2CFF05;
-  }
+  <rect width="1400" height="420" fill="#000000"/>
 
-  .roxo {
-    fill: #FF00FF;
-  }
+  <style>
 
-  .nome {
-    font-family: "Arial Black", Impact, sans-serif;
-    font-size: 72px;
-    font-weight: 900;
-    letter-spacing: 8px;
-    fill: #FFFFFF;
-    stroke: #FFFFFF;
-    stroke-width: 1;
-  }
+    .bit {
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: bold;
+    }
 
-  .brilho {
-    fill: #FF00FF;
-    opacity: .35;
-    filter: blur(8px);
-  }
+    .verde {
+      fill: #2CFF05;
+    }
 
-  .coluna1 { animation: queda1 4s linear infinite; }
-  .coluna2 { animation: queda2 5s linear infinite; }
-  .coluna3 { animation: queda3 3.5s linear infinite; }
-  .coluna4 { animation: queda4 6s linear infinite; }
-  .coluna5 { animation: queda5 4.5s linear infinite; }
-  .coluna6 { animation: queda6 3s linear infinite; }
-  .coluna7 { animation: queda7 5.5s linear infinite; }
-  .coluna8 { animation: queda8 4s linear infinite; }
-  .coluna9 { animation: queda9 6.5s linear infinite; }
-  .coluna10 { animation: queda10 3.8s linear infinite; }
+    .roxo {
+      fill: #FF00FF;
+    }
 
-  @keyframes queda1 {
-    from { transform: translateY(-350px); }
-    to { transform: translateY(350px); }
-  }
+    .fraco {
+      opacity: 0.18;
+      font-size: 12px;
+    }
 
-  @keyframes queda2 {
-    from { transform: translateY(-450px); }
-    to { transform: translateY(350px); }
-  }
+    .medio {
+      opacity: 0.45;
+      font-size: 15px;
+    }
 
-  @keyframes queda3 {
-    from { transform: translateY(-300px); }
-    to { transform: translateY(350px); }
-  }
+    .forte {
+      opacity: 0.9;
+      font-size: 22px;
+      font-weight: bold;
+    }
 
-  @keyframes queda4 {
-    from { transform: translateY(-500px); }
-    to { transform: translateY(350px); }
-  }
+    /* CHUVA */
 
-  @keyframes queda5 {
-    from { transform: translateY(-400px); }
-    to { transform: translateY(350px); }
-  }
+    .c1  { animation: cair 4.2s linear infinite; }
+    .c2  { animation: cair 5.8s linear infinite; }
+    .c3  { animation: cair 3.7s linear infinite; }
+    .c4  { animation: cair 6.2s linear infinite; }
+    .c5  { animation: cair 4.8s linear infinite; }
+    .c6  { animation: cair 3.9s linear infinite; }
+    .c7  { animation: cair 5.1s linear infinite; }
+    .c8  { animation: cair 6.5s linear infinite; }
+    .c9  { animation: cair 4.4s linear infinite; }
+    .c10 { animation: cair 5.6s linear infinite; }
+    .c11 { animation: cair 3.5s linear infinite; }
+    .c12 { animation: cair 6.8s linear infinite; }
+    .c13 { animation: cair 4.1s linear infinite; }
+    .c14 { animation: cair 5.3s linear infinite; }
+    .c15 { animation: cair 3.8s linear infinite; }
+    .c16 { animation: cair 6.1s linear infinite; }
+    .c17 { animation: cair 4.7s linear infinite; }
+    .c18 { animation: cair 5.9s linear infinite; }
+    .c19 { animation: cair 3.6s linear infinite; }
+    .c20 { animation: cair 6.4s linear infinite; }
+    .c21 { animation: cair 4.5s linear infinite; }
+    .c22 { animation: cair 5.5s linear infinite; }
+    .c23 { animation: cair 3.9s linear infinite; }
+    .c24 { animation: cair 6.7s linear infinite; }
+    .c25 { animation: cair 4.3s linear infinite; }
+    .c26 { animation: cair 5.2s linear infinite; }
+    .c27 { animation: cair 3.7s linear infinite; }
+    .c28 { animation: cair 6.3s linear infinite; }
 
-  @keyframes queda6 {
-    from { transform: translateY(-300px); }
-    to { transform: translateY(350px); }
-  }
+    @keyframes cair {
+      from {
+        transform: translateY(-420px);
+      }
 
-  @keyframes queda7 {
-    from { transform: translateY(-450px); }
-    to { transform: translateY(350px); }
-  }
+      to {
+        transform: translateY(420px);
+      }
+    }
 
-  @keyframes queda8 {
-    from { transform: translateY(-350px); }
-    to { transform: translateY(350px); }
-  }
+    /* NOME */
 
-  @keyframes queda9 {
-    from { transform: translateY(-500px); }
-    to { transform: translateY(350px); }
-  }
+    .nome {
+      font-family: monospace;
+      font-size: 72px;
+      font-weight: 900;
+      letter-spacing: 10px;
+      fill: #FFFFFF;
+      stroke: #FFFFFF;
+      stroke-width: 1;
+    }
 
-  @keyframes queda10 {
-    from { transform: translateY(-400px); }
-    to { transform: translateY(350px); }
-  }
-</style>
+    .brilho {
+      font-family: monospace;
+      font-size: 72px;
+      font-weight: 900;
+      letter-spacing: 10px;
+      fill: #FF00FF;
+      opacity: 0.35;
+      filter: blur(10px);
+    }
+
+    .linha {
+      fill: #FF00FF;
+    }
+
+  </style>
+
+
+  <!-- COLUNA 1 -->
+  <g class="c1">
+    <text class="bit verde fraco" x="20" y="20">0</text>
+    <text class="bit verde" x="20" y="48">1</text>
+    <text class="bit verde medio" x="20" y="76">0</text>
+    <text class="bit verde" x="20" y="104">1</text>
+    <text class="bit verde fraco" x="20" y="132">1</text>
+    <text class="bit verde forte" x="20" y="160">0</text>
+    <text class="bit verde medio" x="20" y="188">1</text>
+    <text class="bit verde fraco" x="20" y="216">0</text>
+  </g>
+
+
+  <!-- COLUNA 2 -->
+  <g class="c2">
+    <text class="bit roxo fraco" x="70" y="0">1</text>
+    <text class="bit roxo medio" x="70" y="28">0</text>
+    <text class="bit roxo" x="70" y="56">1</text>
+    <text class="bit roxo forte" x="70" y="84">1</text>
+    <text class="bit roxo medio" x="70" y="112">0</text>
+    <text class="bit roxo" x="70" y="140">1</text>
+    <text class="bit roxo fraco" x="70" y="168">0</text>
+  </g>
+
+
+  <!-- COLUNA 3 -->
+  <g class="c3">
+    <text class="bit verde fraco" x="115" y="20">1</text>
+    <text class="bit verde medio" x="115" y="48">1</text>
+    <text class="bit verde" x="115" y="76">0</text>
+    <text class="bit verde forte" x="115" y="104">1</text>
+    <text class="bit verde medio" x="115" y="132">0</text>
+    <text class="bit verde" x="115" y="160">0</text>
+    <text class="bit verde fraco" x="115" y="188">1</text>
+    <text class="bit verde" x="115" y="216">1</text>
+  </g>
+
+
+  <!-- COLUNA 4 -->
+  <g class="c4">
+    <text class="bit roxo fraco" x="165" y="0">0</text>
+    <text class="bit roxo" x="165" y="28">1</text>
+    <text class="bit roxo medio" x="165" y="56">1</text>
+    <text class="bit roxo forte" x="165" y="84">0</text>
+    <text class="bit roxo" x="165" y="112">1</text>
+    <text class="bit roxo medio" x="165" y="140">0</text>
+    <text class="bit roxo fraco" x="165" y="168">1</text>
+  </g>
+
+
+  <!-- COLUNA 5 -->
+  <g class="c5">
+    <text class="bit verde fraco" x="215" y="10">1</text>
+    <text class="bit verde medio" x="215" y="38">0</text>
+    <text class="bit verde" x="215" y="66">1</text>
+    <text class="bit verde forte" x="215" y="94">1</text>
+    <text class="bit verde medio" x="215" y="122">0</text>
+    <text class="bit verde" x="215" y="150">0</text>
+    <text class="bit verde fraco" x="215" y="178">1</text>
+    <text class="bit verde" x="215" y="206">0</text>
+  </g>
+
+
+  <!-- COLUNA 6 -->
+  <g class="c6">
+    <text class="bit roxo fraco" x="265" y="0">1</text>
+    <text class="bit roxo" x="265" y="28">0</text>
+    <text class="bit roxo medio" x="265" y="56">1</text>
+    <text class="bit roxo forte" x="265" y="84">0</text>
+    <text class="bit roxo" x="265" y="112">1</text>
+    <text class="bit roxo fraco" x="265" y="140">1</text>
+    <text class="bit roxo medio" x="265" y="168">0</text>
+  </g>
+
+
+  <!-- COLUNA 7 -->
+  <g class="c7">
+    <text class="bit verde fraco" x="315" y="15">0</text>
+    <text class="bit verde" x="315" y="43">1</text>
+    <text class="bit verde medio" x="315" y="71">1</text>
+    <text class="bit verde forte" x="315" y="99">0</text>
+    <text class="bit verde" x="315" y="127">1</text>
+    <text class="bit verde medio" x="315" y="155">0</text>
+    <text class="bit verde fraco" x="315" y="183">1</text>
+  </g>
+
+
+  <!-- COLUNA 8 -->
+  <g class="c8">
+    <text class="bit roxo fraco" x="365" y="0">1</text>
+    <text class="bit roxo medio" x="365" y="28">1</text>
+    <text class="bit roxo" x="365" y="56">0</text>
+    <text class="bit roxo forte" x="365" y="84">1</text>
+    <text class="bit roxo" x="365" y="112">0</text>
+    <text class="bit roxo fraco" x="365" y="140">1</text>
+  </g>
+
+
+  <!-- COLUNA 9 -->
+  <g class="c9">
+    <text class="bit verde fraco" x="415" y="10">1</text>
+    <text class="bit verde" x="415" y="38">0</text>
+    <text class="bit verde medio" x="415" y="66">1</text>
+    <text class="bit verde forte" x="415" y="94">1</text>
+    <text class="bit verde" x="415" y="122">0</text>
+    <text class="bit verde medio" x="415" y="150">1</text>
+    <text class="bit verde fraco" x="415" y="178">0</text>
+  </g>
+
+
+  <!-- COLUNA 10 -->
+  <g class="c10">
+    <text class="bit roxo fraco" x="465" y="0">0</text>
+    <text class="bit roxo" x="465" y="28">1</text>
+    <text class="bit roxo medio" x="465" y="56">0</text>
+    <text class="bit roxo forte" x="465" y="84">1</text>
+    <text class="bit roxo" x="465" y="112">1</text>
+    <text class="bit roxo fraco" x="465" y="140">0</text>
+  </g>
+
+
+  <!-- COLUNA 11 -->
+  <g class="c11">
+    <text class="bit verde fraco" x="515" y="10">1</text>
+    <text class="bit verde medio" x="515" y="38">0</text>
+    <text class="bit verde" x="515" y="66">1</text>
+    <text class="bit verde forte" x="515" y="94">0</text>
+    <text class="bit verde" x="515" y="122">1</text>
+    <text class="bit verde fraco" x="515" y="150">1</text>
+  </g>
+
+
+  <!-- COLUNA 12 -->
+  <g class="c12">
+    <text class="bit roxo fraco" x="565" y="0">1</text>
+    <text class="bit roxo" x="565" y="28">1</text>
+    <text class="bit roxo medio" x="565" y="56">0</text>
+    <text class="bit roxo forte" x="565" y="84">1</text>
+    <text class="bit roxo" x="565" y="112">0</text>
+    <text class="bit roxo fraco" x="565" y="140">1</text>
+  </g>
+
+
+  <!-- COLUNA 13 -->
+  <g class="c13">
+    <text class="bit verde fraco" x="615" y="5">0</text>
+    <text class="bit verde" x="615" y="33">1</text>
+    <text class="bit verde medio" x="615" y="61">1</text>
+    <text class="bit verde forte" x="615" y="89">0</text>
+    <text class="bit verde" x="615" y="117">1</text>
+    <text class="bit verde fraco" x="615" y="145">0</text>
+  </g>
+
+
+  <!-- COLUNA 14 -->
+  <g class="c14">
+    <text class="bit roxo fraco" x="665" y="0">0</text>
+    <text class="bit roxo medio" x="665" y="28">1</text>
+    <text class="bit roxo" x="665" y="56">1</text>
+    <text class="bit roxo forte" x="665" y="84">0</text>
+    <text class="bit roxo" x="665" y="112">1</text>
+    <text class="bit roxo fraco" x="665" y="140">0</text>
+  </g>
+
+
+  <!-- COLUNA 15 -->
+  <g class="c15">
+    <text class="bit verde fraco" x="715" y="15">1</text>
+    <text class="bit verde" x="715" y="43">0</text>
+    <text class="bit verde medio" x="715" y="71">1</text>
+    <text class="bit verde forte" x="715" y="99">1</text>
+    <text class="bit verde" x="715" y="127">0</text>
+    <text class="bit verde fraco" x="715" y="155">1</text>
+  </g>
+
+
+  <!-- COLUNA 16 -->
+  <g class="c16">
+    <text class="bit roxo fraco" x="765" y="0">1</text>
+    <text class="bit roxo" x="765" y="28">0</text>
+    <text class="bit roxo medio" x="765" y="56">1</text>
+    <text class="bit roxo forte" x="765" y="84">1</text>
+    <text class="bit roxo" x="765" y="112">0</text>
+    <text class="bit roxo fraco" x="765" y="140">1</text>
+  </g>
+
+
+  <!-- COLUNA 17 -->
+  <g class="c17">
+    <text class="bit verde fraco" x="815" y="10">0</text>
+    <text class="bit verde medio" x="815" y="38">1</text>
+    <text class="bit verde" x="815" y="66">0</text>
+    <text class="bit verde forte" x="815" y="94">1</text>
+    <text class="bit verde" x="815" y="122">1</text>
+    <text class="bit verde fraco" x="815" y="150">0</text>
+  </g>
+
+
+  <!-- COLUNA 18 -->
+  <g class="c18">
+    <text class="bit roxo fraco" x="865" y="0">1</text>
+    <text class="bit roxo" x="865" y="28">1</text>
+    <text class="bit roxo medio" x="865" y="56">0</text>
+    <text class="bit roxo forte" x="865" y="84">1</text>
+    <text class="bit roxo" x="865" y="112">0</text>
+    <text class="bit roxo fraco" x="865" y="140">1</text>
+  </g>
+
+
+  <!-- COLUNA 19 -->
+  <g class="c19">
+    <text class="bit verde fraco" x="915" y="5">1</text>
+    <text class="bit verde" x="915" y="33">0</text>
+    <text class="bit verde medio" x="915" y="61">1</text>
+    <text class="bit verde forte" x="915" y="89">0</text>
+    <text class="bit verde" x="915" y="117">1</text>
+    <text class="bit verde fraco" x="915" y="145">1</text>
+  </g>
+
+
+  <!-- COLUNA 20 -->
+  <g class="c20">
+    <text class="bit roxo fraco" x="965" y="0">0</text>
+    <text class="bit roxo medio" x="965" y="28">1</text>
+    <text class="bit roxo" x="965" y="56">0</text>
+    <text class="bit roxo forte" x="965" y="84">1</text>
+    <text class="bit roxo" x="965" y="112">1</text>
+    <text class="bit roxo fraco" x="965" y="140">0</text>
+  </g>
+
+
+  <!-- COLUNA 21 -->
+  <g class="c21">
+    <text class="bit verde fraco" x="1015" y="10">1</text>
+    <text class="bit verde" x="1015" y="38">1</text>
+    <text class="bit verde medio" x="1015" y="66">0</text>
+    <text class="bit verde forte" x="1015" y="94">1</text>
+    <text class="bit verde" x="1015" y="122">0</text>
+    <text class="bit verde fraco" x="1015" y="150">1</text>
+  </g>
+
+
+  <!-- COLUNA 22 -->
+  <g class="c22">
+    <text class="bit roxo fraco" x="1065" y="0">1</text>
+    <text class="bit roxo" x="1065" y="28">0</text>
+    <text class="bit roxo medio" x="1065" y="56">1</text>
+    <text class="bit roxo forte" x="1065" y="84">0</text>
+    <text class="bit roxo" x="1065" y="112">1</text>
+    <text class="bit roxo fraco" x="1065" y="140">1</text>
+  </g>
+
+
+  <!-- COLUNA 23 -->
+  <g class="c23">
+    <text class="bit verde fraco" x="1115" y="15">0</text>
+    <text class="bit verde medio" x="1115" y="43">1</text>
+    <text class="bit verde" x="1115" y="71">1</text>
+    <text class="bit verde forte" x="1115" y="99">0</text>
+    <text class="bit verde" x="1115" y="127">1</text>
+    <text class="bit verde fraco" x="1115" y="155">0</text>
+  </g>
+
+
+  <!-- COLUNA 24 -->
+  <g class="c24">
+    <text class="bit roxo fraco" x="1165" y="0">1</text>
+    <text class="bit roxo" x="1165" y="28">1</text>
+    <text class="bit roxo medio" x="1165" y="56">0</text>
+    <text class="bit roxo forte" x="1165" y="84">1</text>
+    <text class="bit roxo" x="1165" y="112">0</text>
+    <text class="bit roxo fraco" x="1165" y="140">1</text>
+  </g>
+
+
+  <!-- COLUNA 25 -->
+  <g class="c25">
+    <text class="bit verde fraco" x="1215" y="10">1</text>
+    <text class="bit verde" x="1215" y="38">0</text>
+    <text class="bit verde medio" x="1215" y="66">1</text>
+    <text class="bit verde forte" x="1215" y="94">1</text>
+    <text class="bit verde" x="1215" y="122">0</text>
+    <text class="bit verde fraco" x="1215" y="150">1</text>
+  </g>
+
+
+  <!-- COLUNA 26 -->
+  <g class="c26">
+    <text class="bit roxo fraco" x="1265" y="0">0</text>
+    <text class="bit roxo" x="1265" y="28">1</text>
+    <text class="bit roxo medio" x="1265" y="56">1</text>
+    <text class="bit roxo forte" x="1265" y="84">0</text>
+    <text class="bit roxo" x="1265" y="112">1</text>
+    <text class="bit roxo fraco" x="1265" y="140">0</text>
+  </g>
+
+
+  <!-- COLUNA 27 -->
+  <g class="c27">
+    <text class="bit verde fraco" x="1315" y="15">1</text>
+    <text class="bit verde medio" x="1315" y="43">0</text>
+    <text class="bit verde" x="1315" y="71">1</text>
+    <text class="bit verde forte" x="1315" y="99">0</text>
+    <text class="bit verde" x="1315" y="127">1</text>
+  </g>
+
+
+  <!-- COLUNA 28 -->
+  <g class="c28">
+    <text class="bit roxo fraco" x="1365" y="0">1</text>
+    <text class="bit roxo" x="1365" y="28">0</text>
+    <text class="bit roxo medio" x="1365" y="56">1</text>
+    <text class="bit roxo forte" x="1365" y="84">1</text>
+    <text class="bit roxo" x="1365" y="112">0</text>
+  </g>
+
+
+  <!-- BRILHO ATRÁS DO NOME -->
+
+  <text
+    class="brilho"
+    x="700"
+    y="225"
+    text-anchor="middle">
+    Beckksx
+  </text>
+
+
+  <!-- NOME -->
+
+  <text
+    class="nome"
+    x="700"
+    y="225"
+    text-anchor="middle">
+    Beckksx
+  </text>
+
+
+  <!-- LINHA NEON -->
+
+  <rect
+    class="linha"
+    x="470"
+    y="250"
+    width="460"
+    height="2"/>
+
+
+  <!-- SUBTÍTULO -->
+
+  <text
+    x="700"
+    y="285"
+    text-anchor="middle"
+    fill="#FFFFFF"
+    font-family="monospace"
+    font-size="13"
+    letter-spacing="5">
+    NÚCLEO DIGITAL // SISTEMA ONLINE
+  </text>
+
+</svg>
