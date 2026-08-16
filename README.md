@@ -244,10 +244,10 @@
 ║                      MENSAGEM DO SISTEMA                     ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   "O futuro não é algo que simplesmente acontece.            ║
-║    É algo que nós construímos."                              ║
+║   "Qualquer tecnologia suficientemente avançada é            ║
+║     equivalente à mágica."                                   ║
 ║                                                              ║
-║                     — NÚCLEO DIGITAL                         ║
+║                     — Arthur C. Clarke                       ║
 ║                                                              ║
 ╚══════════════════════════════════════════════════════════════╝
 ```
