@@ -1,4 +1,4 @@
-# `> SISTEMA.INICIALIZAR()`
+# `> SISTEMA.INICIALIZAR(Hello World)`
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=24&duration=2500&pause=700&color=FF00FF&center=true&vCenter=true&width=700&lines=INICIALIZANDO+INTERFACE+NEURAL...;CARREGANDO+PERFIL+DE+DESENVOLVEDORA...;SISTEMA+ONLINE+%E2%9C%93;BEM-VINDO+AO+MEU+N%C3%9ACLEO+DIGITAL" alt="Animação de inicialização" />
@@ -23,15 +23,15 @@
 │                       PERFIL DIGITAL                         │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│  > identidade      : Rebeca                                 │
+│  > identidade      : Rebeca                                  │
 │  > função          : Estudante de Informática                │
 │  > especialização  : Desenvolvimento • Tecnologia            │
-│  > ambiente        : IFMT                                   │
+│  > ambiente        : IFMT                                    │
 │  > modo_atual      : CONSTRUINDO                             │
 │                                                              │
-│  Transformo ideias em sistemas, soluções e experiências.    │
-│  Atualmente explorando desenvolvimento de software,         │
-│  tecnologia e sistemas inteligentes.                        │
+│  Transformo ideias em sistemas, soluções e experiências.     │
+│  Atualmente explorando desenvolvimento de software,          │
+│  tecnologia e sistemas inteligentes.                         │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
 ```
@@ -244,8 +244,8 @@
 ║                      MENSAGEM DO SISTEMA                     ║
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
-║   "O futuro não é algo que simplesmente acontece.           ║
-║    É algo que nós construímos."                             ║
+║   "O futuro não é algo que simplesmente acontece.            ║
+║    É algo que nós construímos."                              ║
 ║                                                              ║
 ║                     — NÚCLEO DIGITAL                         ║
 ║                                                              ║
