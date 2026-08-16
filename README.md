@@ -13,6 +13,7 @@
 <p align="center">
  <p align="center">
 <p align="center">
+ <p align="center">
   <img
     src="https://raw.githubusercontent.com/Beckksx/Beckksx/main/assets/matrix.svg"
     width="100%"
