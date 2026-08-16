@@ -209,21 +209,6 @@
 
 ---
 
-## `// CONQUISTAS`
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=Beckksx&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=4" width="90%" />
-</p>
-
----
-
-## `// ANIMAÇÃO DE CONTRIBUIÇÕES`
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Beckksx/Beckksx/output/github-contribution-grid-snake-dark.svg" alt="Animação das contribuições" />
-</p>
-
----
 
 ## `// REDES SOCIAIS`
 
