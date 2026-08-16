@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+  <rect width="1200" height="300" fill="#000000"/>
+
+  <style>
+    text {
+      font-family: monospace;
+      font-size: 18px;
+      font-weight: bold;
+      fill: #FF00FF;
+    }
+
+    .coluna1 { animation: queda1 4s linear infinite; }
+    .coluna2 { animation: queda2 5s linear infinite; }
+    .coluna3 { animation: queda3 3.5s linear infinite; }
+    .coluna4 { animation: queda4 6s linear infinite; }
+    .coluna5 { animation: queda5 4.5s linear infinite; }
+    .coluna6 { animation: queda6 3s linear infinite; }
+    .coluna7 { animation: queda7 5.5s linear infinite; }
+    .coluna8 { animation: queda8 4s linear infinite; }
+    .coluna9 { animation: queda9 6.5s linear infinite; }
+    .coluna10 { animation: queda10 3.8s linear infinite; }
+
+    @keyframes queda1 {
+      from { transform: translateY(-320px); }
+      to { transform: translateY(320px); }
+    }
+
+    @keyframes queda2 {
+      from { transform: translateY(-420px); }
+      to { transform: translateY(300px); }
+    }
+
+    @keyframes queda3 {
+      from { transform: translateY(-250px); }
+      to { transform: translateY(350px); }
+    }
+
+    @keyframes queda4 {
+      from { transform: translateY(-500px); }
+      to { transform: translateY(300px); }
+    }
+
+    @keyframes queda5 {
+      from { transform: translateY(-350px); }
+      to { transform: translateY(330px); }
+    }
+
+    @keyframes queda6 {
+      from { transform: translateY(-280px); }
+      to { transform: translateY(350px); }
+    }
+
+    @keyframes queda7 {
+      from { transform: translateY(-450px); }
+      to { transform: translateY(320px); }
+    }
+
+    @keyframes queda8 {
+      from { transform: translateY(-300px); }
+      to { transform: translateY(350px); }
+    }
+
+    @keyframes queda9 {
+      from { transform: translateY(-550px); }
+      to { transform: translateY(300px); }
+    }
+
+    @keyframes queda10 {
+      from { transform: translateY(-380px); }
+      to { transform: translateY(350px); }
+    }
+  </style>
+
+  <g class="coluna1" opacity=".75">
+    <text x="50" y="0">101010</text>
+    <text x="50" y="25">010011</text>
+    <text x="50" y="50">110101</text>
+    <text x="50" y="75">001101</text>
+    <text x="50" y="100">101101</text>
+    <text x="50" y="125">010110</text>
+    <text x="50" y="150">111001</text>
+  </g>
+
+  <g class="coluna2" opacity=".45">
+    <text x="160" y="0">010101</text>
+    <text x="160" y="25">111010</text>
+    <text x="160" y="50">001011</text>
+    <text x="160" y="75">101010</text>
+    <text x="160" y="100">011101</text>
+    <text x="160" y="125">110011</text>
+    <text x="160" y="150">001100</text>
+  </g>
+
+  <g class="coluna3" opacity=".9">
+    <text x="270" y="0">110010</text>
+    <text x="270" y="25">001101</text>
+    <text x="270" y="50">101011</text>
+    <text x="270" y="75">010110</text>
+    <text x="270" y="100">111100</text>
+    <text x="270" y="125">000111</text>
+    <text x="270" y="150">101001</text>
+  </g>
+
+  <g class="coluna4" opacity=".5">
+    <text x="380" y="0">011010</text>
+    <text x="380" y="25">101101</text>
+    <text x="380" y="50">010010</text>
+    <text x="380" y="75">110101</text>
+    <text x="380" y="100">001111</text>
+    <text x="380" y="125">101010</text>
+    <text x="380" y="150">011001</text>
+  </g>
+
+  <g class="coluna5" opacity=".8">
+    <text x="490" y="0">101011</text>
+    <text x="490" y="25">010101</text>
+    <text x="490" y="50">110010</text>
+    <text x="490" y="75">001101</text>
+    <text x="490" y="100">111010</text>
+    <text x="490" y="125">010011</text>
+    <text x="490" y="150">101100</text>
+  </g>
+
+  <g class="coluna6" opacity=".4">
+    <text x="600" y="0">001011</text>
+    <text x="600" y="25">110101</text>
+    <text x="600" y="50">010110</text>
+    <text x="600" y="75">101001</text>
+    <text x="600" y="100">011101</text>
+    <text x="600" y="125">111010</text>
+    <text x="600" y="150">001100</text>
+  </g>
+
+  <g class="coluna7" opacity=".85">
+    <text x="710" y="0">111001</text>
+    <text x="710" y="25">010101</text>
+    <text x="710" y="50">101110</text>
+    <text x="710" y="75">001011</text>
+    <text x="710" y="100">110101</text>
+    <text x="710" y="125">010010</text>
+    <text x="710" y="150">101101</text>
+  </g>
+
+  <g class="coluna8" opacity=".5">
+    <text x="820" y="0">010011</text>
+    <text x="820" y="25">101101</text>
+    <text x="820" y="50">110010</text>
+    <text x="820" y="75">001101</text>
+    <text x="820" y="100">111010</text>
+    <text x="820" y="125">010110</text>
+    <text x="820" y="150">101001</text>
+  </g>
+
+  <g class="coluna9" opacity=".9">
+    <text x="930" y="0">101010</text>
+    <text x="930" y="25">011101</text>
+    <text x="930" y="50">110011</text>
+    <text x="930" y="75">001100</text>
+    <text x="930" y="100">101101</text>
+    <text x="930" y="125">010010</text>
+    <text x="930" y="150">111001</text>
+  </g>
+
+  <g class="coluna10" opacity=".55">
+    <text x="1040" y="0">110101</text>
+    <text x="1040" y="25">001011</text>
+    <text x="1040" y="50">101010</text>
+    <text x="1040" y="75">010101</text>
+    <text x="1040" y="100">111100</text>
+    <text x="1040" y="125">001101</text>
+    <text x="1040" y="150">101011</text>
+  </g>
+
+  <rect width="1200" height="300" fill="url(#fade)" opacity=".35"/>
+
+  <defs>
+    <linearGradient id="fade" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#000000"/>
+      <stop offset="50%" stop-color="#FF00FF" stop-opacity=".08"/>
+      <stop offset="100%" stop-color="#000000"/>
+    </linearGradient>
+  </defs>
+</svg>
