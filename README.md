@@ -24,20 +24,20 @@
 
 ---
 
-## `01 // SOBRE MIM`
+## `// SOBRE MIM`
 
 ```text
 ┌──────────────────────────────────────────────────────────────┐
 │                       PERFIL DIGITAL                         │
 ├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│  > identidade      : Rebeca                                  │
+│  > identidade      : Rebeca (Beckksx)                        │
 │  > função          : Estudante de Informática                │
 │  > especialização  : Desenvolvimento • Tecnologia            │
 │  > ambiente        : IFMT                                    │
 │  > modo_atual      : CONSTRUINDO                             │
 │                                                              │
-│  Transformo ideias em sistemas, soluções e experiências.     │
+│                                                              │
 │  Atualmente explorando desenvolvimento de software,          │
 │  tecnologia e sistemas inteligentes.                         │
 │                                                              │
@@ -52,7 +52,7 @@
 
 ---
 
-## `02 // TECNOLOGIAS`
+## `// TECNOLOGIAS`
 
 ### `LINGUAGENS`
 
@@ -90,7 +90,7 @@
 
 ---
 
-## `04 // PROJETOS EM DESTAQUE`
+## `// PROJETOS EM DESTAQUE`
 
 <table>
 <tr>
@@ -162,10 +162,10 @@
 
 ---
 
-## `05 // OBJETIVOS ATUAIS`
+## `// OBJETIVOS ATUAIS`
 
 ```bash
-┌──[ REBECA@NÚCLEO_DIGITAL ]─[~]
+┌──[ Beckksx ]─[~]
 │
 ├─$ cat objetivos_atuais.txt
 │
@@ -188,7 +188,7 @@
 
 ---
 
-## `06 // ESTATÍSTICAS DO GITHUB`
+## `// ESTATÍSTICAS DO GITHUB`
 
 <p align="center">
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Beckksx&show_icons=true&theme=dark&hide_border=true&bg_color=000000&title_color=FF00FF&icon_color=FF00FF&text_color=FFFFFF" />
@@ -201,7 +201,7 @@
 
 ---
 
-## `07 // MATRIZ DE ATIVIDADE`
+## `// MATRIZ DE ATIVIDADE`
 
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=Beckksx&bg_color=000000&color=FFFFFF&line=FF00FF&point=FFFFFF&area=true&area_color=FF00FF&hide_border=true" width="95%" />
@@ -209,7 +209,7 @@
 
 ---
 
-## `08 // CONQUISTAS`
+## `// CONQUISTAS`
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=Beckksx&theme=darkhub&no-frame=true&no-bg=true&margin-w=8&column=4" width="90%" />
@@ -217,7 +217,7 @@
 
 ---
 
-## `09 // ANIMAÇÃO DE CONTRIBUIÇÕES`
+## `// ANIMAÇÃO DE CONTRIBUIÇÕES`
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Beckksx/Beckksx/output/github-contribution-grid-snake-dark.svg" alt="Animação das contribuições" />
@@ -225,17 +225,9 @@
 
 ---
 
-## `10 // REDES SOCIAIS`
+## `// REDES SOCIAIS`
 
 <p align="center">
-
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-FF00FF?style=for-the-badge&logo=linkedin&logoColor=black" />
-</a>
-
-<a href="https://instagram.com/">
-<img src="https://img.shields.io/badge/Instagram-FFFFFF?style=for-the-badge&logo=instagram&logoColor=black" />
-</a>
 
 <a href="https://github.com/Beckksx">
 <img src="https://img.shields.io/badge/GitHub-000000?style=for-the-badge&logo=github&logoColor=FF00FF" />
@@ -245,7 +237,7 @@
 
 ---
 
-## `11 // REGISTRO DO SISTEMA`
+## `// REGISTRO DO SISTEMA`
 
 ```text
 ╔══════════════════════════════════════════════════════════════╗
